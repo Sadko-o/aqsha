@@ -1,23 +1,32 @@
 import React from 'react'
 import Photo from '../../assets/icons/Investment.svg';
+import Cards from './Cards';
 
 function Hero() {
   return (
     
-    <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-          <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-            Main
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-              Hero Message
-            </span>
-            to sell yourself!
-          </h1>
-        </div>
+  <div className="bg-transparent pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center px-20">
+    <div className="text-white md:flex-1 md:mr-10">
+      <h1 className="font-pt-serif text-5xl font-bold mb-7">
+        Возьми под 
+        <span className="bg-underline bg-left-bottom bg-no-repeat pb-2 bg-100%">
+          контроль
+        </span>
+      </h1>
+    </div>
 
-        <div className="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img className="mx-auto w-full md:w-4/5 hover:scale-105 duration-700 ease-in-out hover:rotate-6" src={Photo} />
-        </div>
+      <Cards/>
+    
+
+    {/* <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
+      <div class="relative">
+        <img src={Photo} alt="" class="absolute -top-16 -left-10" />
+      </div>
+      <img src='dist/assets/MacBook Pro.png' alt="Macbook" />
+      <div class="relative">
+        <img src='dist/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
+      </div>
+    </div> */}
     </div>
   )
 }

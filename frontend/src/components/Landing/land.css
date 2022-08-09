@@ -1,23 +1,10 @@
 
-
-.main{
-    height: 500vh;
-    width: 100vw;
-    background: linear-gradient(310.6deg, rgba(100, 0, 233, 0.94) 6.8%, rgba(166, 0, 188, 0.66) 57.8%);
-}
-
 .foot{
     height: fit-content;
     align-items: flex-end;
 }
 
 
-.header-inner{
-
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .start{
     display: flex;
