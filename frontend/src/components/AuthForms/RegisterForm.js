@@ -56,7 +56,7 @@ export default function RegisterForm() {
     <div className='h-50-r w-50-r bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full absolute top-2/4 -left-1/4 animate-[wiggle_1s_ease-in-out_infinite] blur-lg'></div>
 
     <Tilt>
-      <div className="container h-96 w-96 bg-white bg-opacity-10 rounded-2xl shadow-5xl relative z-2 border border-opacity-30 border-r-0 border-b-0 backdrop-filter backdrop-blur-sm" style={{width:"40vw", height:"50vh"}}>
+      <div className="h-96 w-96 bg-white bg-opacity-10 rounded-2xl shadow-5xl relative z-2 border border-opacity-30 border-r-0 border-b-0 backdrop-filter backdrop-blur-sm">
         <form className='h-full w-full flex flex-col justify-evenly items-center' onSubmit={register} >
           <Logo/>
           <div className=" text-black text-2xl tracking-wider">Создай аккаунт</div>
