@@ -13,52 +13,19 @@ function Cards() {
               
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
-                <a
-                  className={`flex flex-col bg-white items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3`}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault(); }}
-                >
+                <a className={`flex flex-col bg-white items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3`} href="#0">
                     <div className='w-2 h-2 mx-4 rounded-full sm:block'>
-                        <img className="rounded-full h-16 w-16 flex items-center justify-center sm:block" src={Youtube} alt="photo"/>
+                        {/* <img className={`rounded-full h-16 w-16 flex items-center justify-center sm:block`} src={Youtube} alt="photo"/> */}
                     </div>
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Netflix</div>
+                    <div className="font-bold text-black leading-snug tracking-tight mb-1">Netflix</div>
                     <div className="text-gray-600">Ежемесячно</div>
                   </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                  <div className="flex text-red justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <span className='tex'>7.99 €</span>
                   </div>
                 </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 `}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault();  }}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 `}
-                  href="#0"
-                  onClick={(e) => { e.preventDefault();}}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
+               
               </div>
             </div>
         </div>

@@ -10,9 +10,10 @@ import "./land.css"
 
 export default function Land() {
   return (
-    <div  className="flex flex-col min-h-screen w-screen justify-between  overflow-hidden bg-gradient-to-r from-purple-500 via-violet-600 to-purple-500" >
+    <div  className="flex flex-col min-h-screen w-screen justify-between  overflow-hidden bg-gradient-to-r from-purple-500 via-violet-500 to-purple-500" >
       <Header />
       <HeroHome/>
+      <Footer/>
       </div>
   );
 }

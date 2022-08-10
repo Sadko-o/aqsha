@@ -21,8 +21,8 @@ function Header() {
 
   return (
     <header class="headerMain" className={`w-screen justify-between z-30 md:bg-opacity-90 transition duration-300 ease-in-out`}>
-      <div class="header-inner" className="w-full justify-between mx-auto px-10  sm:px-6 w-full" style={{width:"100vw", paddingTop:"5%"}}>
-        <div className="flex items-center w-screen justify-between h-16 md:h-20">
+      <div class="header-inner" className="w-full justify-between mx-auto px-10  sm:px-6 w-full" style={{width:"100vw"}}>
+        <div className="flex items-center w-screen justify-between h-16 md:h-20 py-8" >
           <div className="flex-shrink-0 mr-4 w-screen justify-between ">
             <Link to="/" className="block" aria-label="Cruip">
               <Logo/>
