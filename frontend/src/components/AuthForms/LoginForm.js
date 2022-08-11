@@ -64,7 +64,7 @@ export default function LoginForm(){
                     style={{width:"80%"}}
                     value={password}/>
       
-              <Button placeholder="Войти" className='font-poppins text-center text-black bg-black cursor-pointer px-5 py-1 rounded-full bg-opacity-50 bg-white drop-shadow-2xl ' >Войти</Button> 
+              <Button placeholder="Войти" className='font-poppins text-center text-black bg-black cursor-pointer px-5 py-1 rounded-full bg-opacity-50 bg-white drop-shadow-2xl ' onClick={()=>navigate("/dashboard")}>Войти</Button> 
               <span className=' inline-flex cursor-pointer text-sm py-3 rounded-full text-gray-500  bg-opacity-50 hover:text-slate-900 md:flex-col'> Нет аккаунта? <p className='text-slate-500 hover:text-slate-1000"' onClick={()=>navigate('/register')}> Создай аккаунт </p> </span>
           </form>
         </div>

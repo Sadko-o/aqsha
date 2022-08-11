@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import HeroHome from './Hero';
+import Feature from './feature';
 // import FeaturesHome from './partials/Features';
 // import FeaturesBlocks from './partials/FeaturesBlocks';
 // import Testimonials from './partials/Testimonials';
@@ -13,6 +14,7 @@ export default function Land() {
     <div  className="flex flex-col min-h-screen w-screen justify-between overflow-hidden bg-gradient-to-r from-purple-500 via-violet-500 to-purple-500" >
       <Header />
       <HeroHome/>
+      <Feature/>
       <Footer/>
       </div>
   );
